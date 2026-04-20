@@ -78,8 +78,8 @@ def file2dataset(q_file, an_file, ex_file, feat_file, split):
             v, r = find_vision_feat(feat_file, q_set['image_id'], feat_coco_id_to_index, use_spatial)
             vision_features.append(v)
             relation_masks.append(r)
-            # if k > 10 and split == 'train':
-            #     break
+            if k > 10 and split == 'train':
+                break
             if k > 1000 and split == 'val':
                 break
 
