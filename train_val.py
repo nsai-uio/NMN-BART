@@ -14,6 +14,7 @@ from datasets import Dataset, DatasetDict
 from dataset_util import *
 from typing import List, Optional, Tuple
 from utils.utils import DataCollatorForNmnBart
+from dataset_util import find_vision_feat, most_frequent
 torch.autograd.set_detect_anomaly(True)
 from eval_metrics.cider.cider import Cider
 from eval_metrics.spice.spice import Spice

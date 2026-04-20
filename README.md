@@ -24,5 +24,8 @@ NMN-BART is an architecture that integrates the compositional reasoning capabili
 - Build SPICE for evaluation following the [instruction](https://github.com/peteanderson80/SPICE).
 
 
-## Run 
+## Training and validation
 ```python train_val.py```
+
+## Test
+```python test.py --checkpoint /path/to/your/saved/model```
