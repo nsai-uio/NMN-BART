@@ -19,12 +19,10 @@ NMN-BART is an architecture that integrates the compositional reasoning capabili
 2. Install transformers
 - ```pip install transformers==4.9.1 nltk spacy==2.1.6```
 3. Evaluation
+- ```pip install datasets```
 - ```pip install evaluate```
+- Build SPICE for evaluation following the [instruction](https://github.com/peteanderson80/SPICE).
 
 
-Build SPICE for evaluation following the [instruction](https://github.com/peteanderson80/SPICE).
-
-
-## Training
-1. Download 
+## Run 
 ```python train_val.py```
